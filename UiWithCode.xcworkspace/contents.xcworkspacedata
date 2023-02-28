@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/nikitakuchumov/Desktop/development/UiWithCode/UiWithCode/MainTopView.swift">
-   </FileRef>
-   <FileRef
       location = "group:UiWithCode.xcodeproj">
    </FileRef>
    <FileRef

@@ -14,6 +14,7 @@
 		4D058C4329A75F4600DD96F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D058C4129A75F4600DD96F1 /* LaunchScreen.storyboard */; };
 		4D058C4B29A7697900DD96F1 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D058C4A29A7697900DD96F1 /* RegistrationScreen.swift */; };
 		4D65052529AC7687003CFD55 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65052429AC7687003CFD55 /* MainScreen.swift */; };
+		4D871DC229AE490600FE011B /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D871DC129AE490600FE011B /* MainTopView.swift */; };
 		4D962AC129AA1D5900E14782 /* MiddleTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962AC029AA1D5900E14782 /* MiddleTittle.swift */; };
 		4D962AC329AA295A00E14782 /* BottomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962AC229AA295A00E14782 /* BottomLabel.swift */; };
 		4D962AC529AA372D00E14782 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962AC429AA372D00E14782 /* LoginScreen.swift */; };
@@ -21,7 +22,6 @@
 		4D962AC929AA8F6C00E14782 /* TexFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962AC829AA8F6C00E14782 /* TexFieldView.swift */; };
 		4DE6F0CB29A8AC21000F62F7 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE6F0CA29A8AC21000F62F7 /* TopView.swift */; };
 		4DEDCA2129AD2B9A009DEB77 /* ErrorToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCA2029AD2B9A009DEB77 /* ErrorToast.swift */; };
-		4DEDCA2329ADCDEA009DEB77 /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEDCA2229ADCDEA009DEB77 /* MainTopView.swift */; };
 		4DEDCA2529ADE8EB009DEB77 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DEDCA2429ADE8EB009DEB77 /* GoogleService-Info.plist */; };
 		872DB7696CDA5886BFA5446F /* Pods_UiWithCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EB2C7B8B61285A538E3A0F /* Pods_UiWithCode.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +37,7 @@
 		4D058C4429A75F4600DD96F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D058C4A29A7697900DD96F1 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		4D65052429AC7687003CFD55 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		4D871DC129AE490600FE011B /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTopView.swift; path = /Users/nikitakuchumov/Desktop/development/UiWithCode/UiWithCode/MainTopView.swift; sourceTree = "<absolute>"; };
 		4D962AC029AA1D5900E14782 /* MiddleTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleTittle.swift; sourceTree = "<group>"; };
 		4D962AC229AA295A00E14782 /* BottomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLabel.swift; sourceTree = "<group>"; };
 		4D962AC429AA372D00E14782 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		4D962AC829AA8F6C00E14782 /* TexFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexFieldView.swift; sourceTree = "<group>"; };
 		4DE6F0CA29A8AC21000F62F7 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		4DEDCA2029AD2B9A009DEB77 /* ErrorToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorToast.swift; sourceTree = "<group>"; };
-		4DEDCA2229ADCDEA009DEB77 /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTopView.swift; path = /Users/nikitakuchumov/Desktop/development/UiWithCode/UiWithCode/MainTopView.swift; sourceTree = "<absolute>"; };
 		4DEDCA2429ADE8EB009DEB77 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63ED49E16D2E836220A53884 /* Pods-UiWithCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UiWithCode.release.xcconfig"; path = "Target Support Files/Pods-UiWithCode/Pods-UiWithCode.release.xcconfig"; sourceTree = "<group>"; };
 		B0EB2C7B8B61285A538E3A0F /* Pods_UiWithCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UiWithCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,9 +105,9 @@
 				4D058C3A29A75F4600DD96F1 /* FirstScreen.swift */,
 				4D058C4A29A7697900DD96F1 /* RegistrationScreen.swift */,
 				4D962AC429AA372D00E14782 /* LoginScreen.swift */,
+				4D871DC129AE490600FE011B /* MainTopView.swift */,
 				4D65052429AC7687003CFD55 /* MainScreen.swift */,
 				4DE6F0CA29A8AC21000F62F7 /* TopView.swift */,
-				4DEDCA2229ADCDEA009DEB77 /* MainTopView.swift */,
 				4D962AC029AA1D5900E14782 /* MiddleTittle.swift */,
 				4D962AC229AA295A00E14782 /* BottomLabel.swift */,
 				4D962AC629AA896D00E14782 /* BottomButton.swift */,
@@ -238,9 +238,9 @@
 			files = (
 				4D962AC129AA1D5900E14782 /* MiddleTittle.swift in Sources */,
 				4D962AC929AA8F6C00E14782 /* TexFieldView.swift in Sources */,
-				4DEDCA2329ADCDEA009DEB77 /* MainTopView.swift in Sources */,
 				4D058C3B29A75F4600DD96F1 /* FirstScreen.swift in Sources */,
 				4D65052529AC7687003CFD55 /* MainScreen.swift in Sources */,
+				4D871DC229AE490600FE011B /* MainTopView.swift in Sources */,
 				4D962AC329AA295A00E14782 /* BottomLabel.swift in Sources */,
 				4D962AC729AA896D00E14782 /* BottomButton.swift in Sources */,
 				4DE6F0CB29A8AC21000F62F7 /* TopView.swift in Sources */,
