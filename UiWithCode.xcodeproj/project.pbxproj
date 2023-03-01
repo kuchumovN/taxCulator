@@ -13,6 +13,7 @@
 		4D058C4029A75F4600DD96F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D058C3F29A75F4600DD96F1 /* Assets.xcassets */; };
 		4D058C4329A75F4600DD96F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D058C4129A75F4600DD96F1 /* LaunchScreen.storyboard */; };
 		4D058C4B29A7697900DD96F1 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D058C4A29A7697900DD96F1 /* RegistrationScreen.swift */; };
+		4D1F595429AF172F00B7070D /* RateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F595329AF172F00B7070D /* RateView.swift */; };
 		4D65052529AC7687003CFD55 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D65052429AC7687003CFD55 /* MainScreen.swift */; };
 		4D871DC229AE490600FE011B /* MainTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D871DC129AE490600FE011B /* MainTopView.swift */; };
 		4D962AC129AA1D5900E14782 /* MiddleTittle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D962AC029AA1D5900E14782 /* MiddleTittle.swift */; };
@@ -36,6 +37,7 @@
 		4D058C4229A75F4600DD96F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D058C4429A75F4600DD96F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D058C4A29A7697900DD96F1 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
+		4D1F595329AF172F00B7070D /* RateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateView.swift; sourceTree = "<group>"; };
 		4D65052429AC7687003CFD55 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 		4D871DC129AE490600FE011B /* MainTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTopView.swift; path = /Users/nikitakuchumov/Desktop/development/UiWithCode/UiWithCode/MainTopView.swift; sourceTree = "<absolute>"; };
 		4D962AC029AA1D5900E14782 /* MiddleTittle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleTittle.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				4D962AC629AA896D00E14782 /* BottomButton.swift */,
 				4D962AC829AA8F6C00E14782 /* TexFieldView.swift */,
 				4DEDCA2029AD2B9A009DEB77 /* ErrorToast.swift */,
+				4D1F595329AF172F00B7070D /* RateView.swift */,
 				4D058C3F29A75F4600DD96F1 /* Assets.xcassets */,
 				4DEDCA2429ADE8EB009DEB77 /* GoogleService-Info.plist */,
 				4D058C4129A75F4600DD96F1 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 				4D962AC329AA295A00E14782 /* BottomLabel.swift in Sources */,
 				4D962AC729AA896D00E14782 /* BottomButton.swift in Sources */,
 				4DE6F0CB29A8AC21000F62F7 /* TopView.swift in Sources */,
+				4D1F595429AF172F00B7070D /* RateView.swift in Sources */,
 				4D058C4B29A7697900DD96F1 /* RegistrationScreen.swift in Sources */,
 				4DEDCA2129AD2B9A009DEB77 /* ErrorToast.swift in Sources */,
 				4D962AC529AA372D00E14782 /* LoginScreen.swift in Sources */,

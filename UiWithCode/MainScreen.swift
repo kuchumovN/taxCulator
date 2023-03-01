@@ -9,6 +9,7 @@ class MainScreen: UIViewController {
         }
     
     let mainTopView = MainTopView()
+    let rateView = RateView()
 
     override func viewDidLoad() {
         
@@ -20,6 +21,7 @@ class MainScreen: UIViewController {
     
     func setupViews() {
         view.addSubview(mainTopView)
+        view.addSubview(rateView)
     }
 
 
@@ -34,5 +36,10 @@ extension MainScreen {
         mainTopView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
         mainTopView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
         mainTopView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+        
+        rateView.heightAnchor.constraint(equalToConstant: 100).isActive = true
+        rateView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor, constant: 4).isActive = true
+        rateView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -4).isActive = true
+        rateView.topAnchor.constraint(equalTo: mainTopView.bottomAnchor, constant: 16).isActive = true
     }
 }
