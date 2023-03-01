@@ -6,6 +6,6 @@ TaxCulator is a simple pet-project app, that allows to
 
 - track your taxes dynamic
 
-Installation requires a GoogleService-Info.plist. You can get this [here](https://firebase.google.com/docs/ios/setup?hl=en/)
+Installation requires a GoogleService-Info.plist. You can get this file [here](https://firebase.google.com/docs/ios/setup?hl=en/)
 
-I would really appreciate any feedback
+I would really appreciate any feedback.
