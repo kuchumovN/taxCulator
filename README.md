@@ -1,4 +1,4 @@
-TaxCulator is a simple pet-project app, that allows to
+TaxCulator is a simple pet-project app, that allows you to
 
 - easily calculate taxes for individual entrepreneurs.
 
